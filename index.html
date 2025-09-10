@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis Spa Djerba - L'île du Bien-être</title>
+    <link rel="stylesheet" href="djerba-styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><i class="fas fa-sun"></i> Oasis Spa Djerba</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#soins">Soins</a></li>
+                <li><a href="#djerba">L'île de Djerba</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#reservation" class="btn-primary">Réserver</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <section id="accueil" class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active">
+                <div class="slide-bg slide-1"></div>
+                <div class="slide-content">
+                    <h1>Bienvenue à l'Oasis du Bien-être</h1>
+                    <p>Découvrez l'art du spa traditionnel tunisien dans le cadre enchanteur de l'île de Djerba</p>
+                    <div class="hero-buttons">
+                        <a href="#reservation" class="btn-primary">Réserver maintenant</a>
+                        <a href="#soins" class="btn-secondary">Découvrir nos soins</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-bg slide-2"></div>
+                <div class="slide-content">
+                    <h1>Traditions Ancestrales de Djerba</h1>
+                    <p>Plongez dans l'héritage millénaire des soins berbères et méditerranéens</p>
+                    <div class="hero-buttons">
+                        <a href="#soins" class="btn-primary">Nos traditions</a>
+                        <a href="#djerba" class="btn-secondary">L'île de Djerba</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-bg slide-3"></div>
+                <div class="slide-content">
+                    <h1>Vue sur la Méditerranée</h1>
+                    <p>Relaxez-vous face aux eaux turquoise de la Méditerranée dans notre spa premium</p>
+                    <div class="hero-buttons">
+                        <a href="#reservation" class="btn-primary">Réserver</a>
+                        <a href="#galerie" class="btn-secondary">Voir la galerie</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Navigation du slider -->
+        <div class="slider-nav">
+            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        
+        <!-- Indicateurs -->
+        <div class="slider-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+        </div>
+    </section>
+
+    <!-- Section Spécificités Djerba -->
+    <section id="djerba" class="djerba-section">
+        <div class="container">
+            <div class="djerba-content">
+                <div class="djerba-text">
+                    <h2>L'Île de Djerba, Perle de la Méditerranée</h2>
+                    <p class="djerba-intro">Située au large des côtes tunisiennes, Djerba est une île mythique où se mélangent les cultures berbère, arabe et méditerranéenne. Notre spa puise dans cette richesse culturelle pour vous offrir des soins uniques.</p>
+                    
+                    <div class="djerba-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-water"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Sel de Mer de Djerba</h4>
+                                <p>Nos gommages utilisent le sel marin récolté dans les salines traditionnelles de l'île</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Huiles d'Olive Djerbienne</h4>
+                                <p>Huiles précieuses issues des oliviers millénaires qui parsèment notre île</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-sun"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Argile Rouge du Sahara</h4>
+                                <p>Masques purifiants à l'argile du désert tunisien, riche en minéraux</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Plantes Aromatiques</h4>
+                                <p>Lavande, romarin et jasmin cultivés sous le soleil méditerranéen</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="djerba-image">
+                    <div class="image-placeholder djerba-img"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Soins -->
+    <section id="soins" class="soins-section">
+        <div class="container">
+            <h2 class="section-title">Nos Soins Signature</h2>
+            <div class="soins-grid">
+                <div class="soin-card premium">
+                    <div class="soin-image">
+                        <div class="image-placeholder soin-1"></div>
+                        <div class="soin-badge">Signature</div>
+                    </div>
+                    <div class="soin-content">
+                        <h3>Hammam Royal Djerbien</h3>
+                        <p>Expérience complète dans notre hammam traditionnel avec gommage au sel de mer, masque à l'argile rouge et relaxation aux huiles d'argan.</p>
+                        <div class="soin-details">
+                            <span class="duree"><i class="fas fa-clock"></i> 90 min</span>
+                            <span class="prix">180 DT</span>
+                        </div>
+                        <a href="#reservation" class="btn-soin">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="soin-card">
+                    <div class="soin-image">
+                        <div class="image-placeholder soin-2"></div>
+                    </div>
+                    <div class="soin-content">
+                        <h3>Massage aux Huiles d'Olive</h3>
+                        <p>Massage relaxant aux huiles d'olive vierge de Djerba, enrichies aux essences de jasmin et de fleur d'oranger.</p>
+                        <div class="soin-details">
+                            <span class="duree"><i class="fas fa-clock"></i> 60 min</span>
+                            <span class="prix">120 DT</span>
+                        </div>
+                        <a href="#reservation" class="btn-soin">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="soin-card">
+                    <div class="soin-image">
+                        <div class="image-placeholder soin-3"></div>
+                    </div>
+                    <div class="soin-content">
+                        <h3>Soin Visage à l'Argile Saharienne</h3>
+                        <p>Nettoyage profond et purification avec l'argile rouge du Sahara, suivi d'un masque hydratant à l'huile de figue de barbarie.</p>
+                        <div class="soin-details">
+                            <span class="duree"><i class="fas fa-clock"></i> 75 min</span>
+                            <span class="prix">100 DT</span>
+                        </div>
+                        <a href="#reservation" class="btn-soin">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="soin-card">
+                    <div class="soin-image">
+                        <div class="image-placeholder soin-4"></div>
+                    </div>
+                    <div class="soin-content">
+                        <h3>Bain de Vapeur aux Plantes</h3>
+                        <p>Détoxification dans notre bain de vapeur parfumé aux herbes méditerranéennes : thym, romarin et menthe de Djerba.</p>
+                        <div class="soin-details">
+                            <span class="duree"><i class="fas fa-clock"></i> 45 min</span>
+                            <span class="prix">80 DT</span>
+                        </div>
+                        <a href="#reservation" class="btn-soin">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="soin-card">
+                    <div class="soin-image">
+                        <div class="image-placeholder soin-5"></div>
+                    </div>
+                    <div class="soin-content">
+                        <h3>Rituel Berbère Complet</h3>
+                        <p>Voyage sensoriel combinant gommage traditionnel, enveloppement corporel et massage aux pierres chaudes du désert.</p>
+                        <div class="soin-details">
+                            <span class="duree"><i class="fas fa-clock"></i> 120 min</span>
+                            <span class="prix">220 DT</span>
+                        </div>
+                        <a href="#reservation" class="btn-soin">Réserver</a>
+                    </div>
+                </div>
+
+                <div class="soin-card">
+                    <div class="soin-image">
+                        <div class="image-placeholder soin-6"></div>
+                    </div>
+                    <div class="soin-content">
+                        <h3>Massage Shiatsu Vue Mer</h3>
+                        <p>Massage japonais traditionnel dans notre salle avec vue panoramique sur la Méditerranée. Harmonie parfaite corps-esprit.</p>
+                        <div class="soin-details">
+                            <span class="duree"><i class="fas fa-clock"></i> 90 min</span>
+                            <span class="prix">150 DT</span>
+                        </div>
+                        <a href="#reservation" class="btn-soin">Réserver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie Photo -->
+    <section id="galerie" class="galerie-section">
+        <div class="container">
+            <h2 class="section-title">Notre Oasis de Sérénité</h2>
+            <div class="galerie-grid">
+                <div class="galerie-item large">
+                    <div class="image-placeholder galerie-1"></div>
+                    <div class="galerie-overlay">
+                        <h4>Hammam Traditionnel</h4>
+                        <p>Architecture authentique djerbienne</p>
+                    </div>
+                </div>
+                <div class="galerie-item">
+                    <div class="image-placeholder galerie-2"></div>
+                    <div class="galerie-overlay">
+                        <h4>Vue Méditerranée</h4>
+                        <p>Terrasse avec vue panoramique</p>
+                    </div>
+                </div>
+                <div class="galerie-item">
+                    <div class="image-placeholder galerie-3"></div>
+                    <div class="galerie-overlay">
+                        <h4>Salle de Massage</h4>
+                        <p>Décoration berbère raffinée</p>
+                    </div>
+                </div>
+                <div class="galerie-item">
+                    <div class="image-placeholder galerie-4"></div>
+                    <div class="galerie-overlay">
+                        <h4>Piscine Relaxation</h4>
+                        <p>Eaux turquoise chauffées</p>
+                    </div>
+                </div>
+                <div class="galerie-item tall">
+                    <div class="image-placeholder galerie-5"></div>
+                    <div class="galerie-overlay">
+                        <h4>Jardin de Méditation</h4>
+                        <p>Oliviers et jasmin</p>
+                    </div>
+                </div>
+                <div class="galerie-item">
+                    <div class="image-placeholder galerie-6"></div>
+                    <div class="galerie-overlay">
+                        <h4>Produits Locaux</h4>
+                        <p>Huiles et essences de Djerba</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Réservation -->
+    <section id="reservation" class="reservation-section">
+        <div class="container">
+            <h2 class="section-title">Réservez Votre Moment d'Exception</h2>
+            <div class="reservation-content">
+                <div class="reservation-info">
+                    <h3>Votre Expérience sur Mesure</h3>
+                    <p>Chaque soin est personnalisé selon vos besoins et préférences. Notre équipe de thérapeutes experts vous guidera vers l'expérience parfaite.</p>
+                    
+                    <div class="info-items">
+                        <div class="info-item">
+                            <i class="fas fa-star"></i>
+                            <span>Thérapeutes certifiés en techniques traditionnelles</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>Produits 100% naturels de Djerba</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Protocoles sanitaires stricts</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Ouvert 7j/7 de 9h à 21h</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-urgence">
+                        <h4><i class="fas fa-phone"></i> Réservation immédiate</h4>
+                        <p>+216 75 123 456</p>
+                    </div>
+                </div>
+                
+                <div class="reservation-form-container">
+                    <form id="reservationForm" class="reservation-form">
+                        <div class="form-header">
+                            <h3>Formulaire de Réservation</h3>
+                            <p>Réservez votre soin en quelques clics</p>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nom">Nom et Prénom</label>
+                                <input type="text" id="nom" name="nom" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telephone">Téléphone</label>
+                                <input type="tel" id="telephone" name="telephone" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="soin">Soin souhaité</label>
+                                <select id="soin" name="soin" required>
+                                    <option value="">Choisir un soin</option>
+                                    <option value="hammam">Hammam Royal Djerbien - 180 DT</option>
+                                    <option value="massage-olive">Massage aux Huiles d'Olive - 120 DT</option>
+                                    <option value="soin-visage">Soin Visage à l'Argile - 100 DT</option>
+                                    <option value="bain-vapeur">Bain de Vapeur aux Plantes - 80 DT</option>
+                                    <option value="rituel-berbere">Rituel Berbère Complet - 220 DT</option>
+                                    <option value="shiatsu">Massage Shiatsu Vue Mer - 150 DT</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="personnes">Nombre de personnes</label>
+                                <select id="personnes" name="personnes" required>
+                                    <option value="1">1 personne</option>
+                                    <option value="2">2 personnes (couple)</option>
+                                    <option value="3">3 personnes</option>
+                                    <option value="4">4 personnes (groupe)</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Date souhaitée</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="heure">Heure préférée</label>
+                                <select id="heure" name="heure" required>
+                                    <option value="">Choisir une heure</option>
+                                    <option value="09:00">09:00</option>
+                                    <option value="10:30">10:30</option>
+                                    <option value="12:00">12:00</option>
+                                    <option value="14:00">14:00</option>
+                                    <option value="15:30">15:30</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="18:30">18:30</option>
+                                    <option value="20:00">20:00</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Demandes particulières (optionnel)</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Allergies, préférences, occasion spéciale..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary btn-full">
+                            <i class="fas fa-calendar-check"></i>
+                            Confirmer ma réservation
+                        </button>
+                        
+                        <p class="form-note">* Un membre de notre équipe vous contactera sous 24h pour confirmer votre rendez-vous</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Venez Nous Voir à Djerba</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Notre Adresse</h4>
+                            <p>Zone Touristique Sidi Mahrez<br>
+                            Route de la Plage, Km 8<br>
+                            4116 Djerba, Tunisie</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Téléphone</h4>
+                            <p>+216 75 123 456<br>
+                            +216 98 765 432</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>contact@oasisspadjerba.tn<br>
+                            reservation@oasisspadjerba.tn</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Horaires</h4>
+                            <p>Tous les jours : 9h00 - 21h00<br>
+                            <small>Dernière entrée à 19h30</small></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map fa-3x"></i>
+                        <h4>Djerba, Tunisie</h4>
+                        <p>Carte interactive - Cliquez pour ouvrir dans Google Maps</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Transport -->
+            <div class="transport-info">
+                <h3>Comment nous rejoindre</h3>
+                <div class="transport-options">
+                    <div class="transport-item">
+                        <i class="fas fa-plane"></i>
+                        <h4>Aéroport Djerba-Zarzis</h4>
+                        <p>À 15 minutes en voiture<br>Navette disponible sur réservation</p>
+                    </div>
+                    <div class="transport-item">
+                        <i class="fas fa-car"></i>
+                        <h4>En Voiture</h4>
+                        <p>Parking gratuit<br>Accès direct depuis la route côtière</p>
+                    </div>
+                    <div class="transport-item">
+                        <i class="fas fa-taxi"></i>
+                        <h4>Taxi</h4>
+                        <p>Service taxi 24h/24<br>Tarif fixe depuis l'aéroport : 25 DT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-sun"></i> Oasis Spa Djerba</h3>
+                    <p>Votre sanctuaire de bien-être au cœur de l'île de Djerba. Découvrez l'art ancestral du spa tunisien dans un cadre d'exception face à la Méditerranée.</p>
+                    <div class="footer-certifications">
+                        <span class="certification">Certifié Bio</span>
+                        <span class="certification">Spa Halal</span>
+                        <span class="certification">Éco-Responsable</span>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Nos Soins</h4>
+                    <ul>
+                        <li><a href="#reservation">Hammam Royal</a></li>
+                        <li><a href="#reservation">Massage aux Huiles</a></li>
+                        <li><a href="#reservation">Rituel Berbère</a></li>
+                        <li><a href="#reservation">Soins Visage</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Informations</h4>
+                    <ul>
+                        <li><a href="#djerba">L'île de Djerba</a></li>
+                        <li><a href="#galerie">Galerie Photos</a></li>
+                        <li>Conditions d'utilisation</li>
+                        <li>Politique de confidentialité</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <h5>Newsletter</h5>
+                        <div class="newsletter-form">
+                            <input type="email" placeholder="Votre email">
+                            <button><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Oasis Spa Djerba. Tous droits réservés. | Île de Djerba, Tunisie</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de Confirmation -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <i class="fas fa-check-circle"></i>
+                <h3>Réservation Confirmée !</h3>
+            </div>
+            <div class="modal-body">
+                <p>Votre demande de réservation a été enregistrée avec succès.</p>
+                <p>Notre équipe vous contactera dans les plus brefs délais pour confirmer votre rendez-vous.</p>
+                <div class="modal-info">
+                    <p><strong>Numéro de réservation :</strong> <span id="reservationNumber"></span></p>
+                </div>
+            </div>
+            <button class="btn-primary" onclick="closeModal()">
+                <i class="fas fa-times"></i>
+                Fermer
+            </button>
+        </div>
+    </div>
+
+    <script src="djerba-script.js"></script>
+</body>
+</html>
